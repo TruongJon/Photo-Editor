@@ -1,0 +1,9 @@
+create first
+create second
+current first
+load res/PNGImage.png
+downsize 0.60
+save res/PNGImage-60.png
+downsize 0.40
+save res/PNGImage-24.png
+close

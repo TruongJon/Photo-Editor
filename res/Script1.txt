@@ -1,0 +1,13 @@
+create first
+create second
+current first
+load res/NUinImage1.ppm
+blur
+save res/NUinImage1-blur.ppm
+current second
+load res/NUinImage2.ppm
+greyscale
+save res/NUinImage2-greyscale.ppm
+invisible second
+save res/NUinImage1-blur-2.ppm
+close

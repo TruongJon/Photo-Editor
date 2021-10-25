@@ -1,0 +1,21 @@
+create first
+current first
+load res/JPEGImage.jpg
+blur
+sepia
+save res/blur-sepia-image.png
+create second
+current second
+load res/PNGImage.png
+sharpen
+greyscale
+save res/sharp-greyscale-image.jpg
+invisible second
+save res/blur-sepia-image-2.jpg
+visible second
+save res/sharp-greyscale-image.png
+create third
+current third
+remove third
+save all all-files jpg
+close
